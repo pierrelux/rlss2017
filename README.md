@@ -34,6 +34,14 @@ The instructions are provided in the `README.md` in :
 
 * [shallowpy](https://bitbucket.org/rllabmcgill/shallowpy/)
 
+The example code relies on [memory overcommitment](https://www.kernel.org/doc/Documentation/vm/overcommit-accounting)
+which is rather useful to know about. The overcommit mode can be read/set via `cat /proc/sys/vm/overcommit_memory`. From 
+the Kernel documentation : 
+
+> 1	-	Always overcommit. Appropriate for some scientific
+> applications. Classic example is code using sparse arrays
+> and just relying on the virtual memory consisting almost
+> entirely of zero pages.
 
 # Other References
 
