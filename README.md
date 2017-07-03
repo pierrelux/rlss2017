@@ -6,7 +6,7 @@ To compile the `tile-coding` library:
 3. `export PYTHONPATH=$PYTHONPATH:pathto/tile-coding`
 
 
-## 300+ Notebooks from McGill COMP-767, Intro to
+## 300+ Notebooks from McGill COMP-767, Intro to RL
 
 A collections of notebooks written by the students of
 McGill COMP-767, Intro to RL. We had a "bring your own assignment" model
